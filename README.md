@@ -32,8 +32,12 @@ Stat Item Display - Updates a Text Element from a game objects numerous item sta
 <Item.Name.Owned/> 
 <Item.Name.Max/>
 
+(exp. <Item.Food.Name/> will show up as Food)
+
 Stat Item and Stat Display - Does Both On the Same Text Element!
 
+Almost everything is case insensitive so you should be able to not worry about how you're writing. (but still try to be cautious)
+ 
 Good assets to use with EasyStats:
 Feel - https://assetstore.unity.com/packages/tools/particles-effects/feel-183370
 
