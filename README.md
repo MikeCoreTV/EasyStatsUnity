@@ -4,6 +4,8 @@ A set of C# Scripts for Unity to make creating stats, items, buying selling, and
 You get 7 Components
 
 One is the Stat Component - Ideal for making Currency, Health, Energy, Stamina, Mana, Etc.
+(When calling functions in unity events you will be prompted with a string where you might expect a value input. this is so u can enter different stats. so instead of putting "10" you'd put "health.10")
+(additionally, the remove stat function is just the name and the add stat function is the name,min,max,current so exp. "health.0.100.75" you'd create a stat named health with a minimum of zero a maximum of zero that is currently at 75)
 
 One is Stat Item - Ideal for managing things like Food, collectibles, Keys, Potions, Etc.
 
